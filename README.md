@@ -1,7 +1,5 @@
 # Praktikum 002 API Komik
 
-Repositori ini berisi implementasi API Komik dengan fitur Authentication, Komik, dan Genre.
-Minimal commit telah dipenuhi (20+ commits).
 
 ## Fitur API
 - **Register & Login** (JWT Authentication)
@@ -18,109 +16,37 @@ Minimal commit telah dipenuhi (20+ commits).
 
 ## Dokumentasi API & Screenshots
 
-Silakan ikuti langkah-langkah di bawah ini menggunakan **Postman** atau **Insomnia**, lalu ganti teks di dalam tanda kurung dengan **screenshot** hasil run kamu.
 
 ### 1. POST Register
-- **URL**: `POST http://localhost:3000/api/register`
-- **Body (JSON)**:
-  ```json
-  {
-      "username": "nanda",
-      "password": "password123"
-  }
-  ```
-> **SCREENSHOT POST REGISTER:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat register)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/61f85867-b62c-42fd-b6ac-191754d1ad82" />
 
 ### 2. POST Login
-- **URL**: `POST http://localhost:3000/api/login`
-- **Body (JSON)**:
-  ```json
-  {
-      "username": "nanda",
-      "password": "password123"
-  }
-  ```
-  *(Copy token dari response untuk digunakan pada request lainnya)*
-> **SCREENSHOT POST LOGIN:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat login)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/531f104d-2bb5-4d40-807f-791ff159796a" />
 
 ### 3. POST Genre
-- **URL**: `POST http://localhost:3000/api/genre`
-- **Headers**: `Authorization: Bearer <TOKEN>`
-- **Body (JSON)**:
-  ```json
-  {
-      "name": "Action"
-  }
-  ```
-> **SCREENSHOT POST GENRE:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat create genre)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/88102bd2-066b-41af-8e03-0180e794e899" />
+
 
 ### 4. GET Genre
-- **URL**: `GET http://localhost:3000/api/genre`
-- **Headers**: `Authorization: Bearer <TOKEN>`
-> **SCREENSHOT GET GENRE:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat get genre)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9741c8fd-ecb5-4e75-bf17-9580867b6ce4" />
 
 ### 5. PUT Genre
-- **URL**: `PUT http://localhost:3000/api/genre/1`
-- **Headers**: `Authorization: Bearer <TOKEN>`
-- **Body (JSON)**:
-  ```json
-  {
-      "name": "Action & Adventure"
-  }
-  ```
-> **SCREENSHOT PUT GENRE:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat put genre)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2212dd99-0a7d-489b-a8e3-e689a9f5c32d" />
+
 
 ### 6. DELETE Genre
-- **URL**: `DELETE http://localhost:3000/api/genre/1`
-- **Headers**: `Authorization: Bearer <TOKEN>`
-> **SCREENSHOT DELETE GENRE:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat delete genre)*
-
-*(Silakan buat genre lagi untuk bisa menginput komik karena jika dihapus ID nya akan hilang atau buat genre baru dengan id lain, misalnya `Shounen`)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f8eac0cb-f80d-49a8-bf9e-26baffb99d0e" />
 
 ### 7. POST Komik
-- **URL**: `POST http://localhost:3000/api/komik`
-- **Headers**: `Authorization: Bearer <TOKEN>`
-- **Body (JSON)**:
-  ```json
-  {
-      "title": "Naruto",
-      "author": "Masashi Kishimoto",
-      "description": "Ninja dari Konoha",
-      "genreId": 2
-  }
-  ```
-> **SCREENSHOT POST KOMIK:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat create komik)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f8feac03-4592-485d-bed3-37a02e0eed93" />
+
 
 ### 8. GET Komik
-- **URL**: `GET http://localhost:3000/api/komik`
-- **Headers**: `Authorization: Bearer <TOKEN>`
-> **SCREENSHOT GET KOMIK:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat get komik)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/820a1a00-b3b3-4cec-bac6-d2531ed92cd0" />
 
 ### 9. PUT Komik
-- **URL**: `PUT http://localhost:3000/api/komik/1`
-- **Headers**: `Authorization: Bearer <TOKEN>`
-- **Body (JSON)**:
-  ```json
-  {
-      "title": "Naruto Shippuden",
-      "author": "Masashi Kishimoto",
-      "description": "Perjuangan Naruto",
-      "genreId": 2
-  }
-  ```
-> **SCREENSHOT PUT KOMIK:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat put komik)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d6c5317e-ceb4-4d00-8659-1841fe4ed478" />
 
 ### 10. DELETE Komik
-- **URL**: `DELETE http://localhost:3000/api/komik/1`
-- **Headers**: `Authorization: Bearer <TOKEN>`
-> **SCREENSHOT DELETE KOMIK:**
-> *(Hapus teks ini dan masukkan gambar screenshot Postman saat delete komik)*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2bd8b76-874c-440d-b7e6-f6847f1ce88e" />
+
